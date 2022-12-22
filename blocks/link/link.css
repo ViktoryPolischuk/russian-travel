@@ -1,4 +1,7 @@
-.links {
+.link {
   color: #FFFFFF;
   text-decoration: none;
+}
+.link:hover {
+opacity: 0.8;
 }
