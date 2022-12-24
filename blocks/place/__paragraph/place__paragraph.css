@@ -2,4 +2,24 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
+  margin: 0;
+}
+
+.place__paragraph + .place__paragraph {
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+  .place__paragraph + .place__paragraph {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    padding: 0 16px;
+  }
 }
