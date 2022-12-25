@@ -2,6 +2,7 @@
   flex-direction: column;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
   padding: 245px 312px;
   text-decoration: none;
   background-color: rgba(42, 44, 47, 0.3);
